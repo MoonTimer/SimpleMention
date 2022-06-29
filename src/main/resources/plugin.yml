@@ -1,0 +1,7 @@
+name: Mention
+version: '${project.version}'
+main: me.moontimer.mention.Mention
+api-version: 1.18
+authors: [ MoonTimer ]
+description: MentionPlugin
+website: https://moontimer.me
