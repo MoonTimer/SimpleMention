@@ -13,7 +13,7 @@ public class ChatListener implements Listener {
         String message = event.getMessage();
         for (Player players : Bukkit.getOnlinePlayers()) {
             if (message.contains(players.getName())) {
-                message = message.replace(players.getName() , "@" + players.getName());
+                message = message.replace(players.getName() , "§b@" + players.getName() + "§f");
             }
         }
         event.setMessage(message);
